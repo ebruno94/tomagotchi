@@ -1,0 +1,11 @@
+<h1> @Model.GetName() </h1>
+<h3> Status </h3>
+<p> Hunger    = @Model.GetFoodMeter();
+<p> Happiness = @Model.GetHappyMeter();
+<p> Fatigue   = @Model.GetSleepMeter();
+
+<p><a href="/Tamagotchi/@Model.GetId()/Feed"> FEED </a></p>
+<p><a href="/Tamagotchi/@Model.GetId()/Play"> PLAY w/ @Model.GetName() </a></p>
+<p><a href="/Tamagotchi/@Model.GetId()/Sleep"> PUT TO SLEEP</a></p>
+
+<p><a href="/Tamagotchi/ViewTama"> View all Tamagotchis</a></p>
